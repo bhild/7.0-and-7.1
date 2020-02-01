@@ -11,11 +11,11 @@ public class Messages
    //-----------------------------------------------------------------
    public static void main (String[] args)
    {
-      Thought parked = new Thought();
-      Advice dates = new Advice();
+      Thought thinking = new Thought();
+      Advice speaking = new Advice();
 
-      parked.message();
+      thinking.message();
 
-      dates.message();  // overridden
+      speaking.message();  // overridden
    }
 }
